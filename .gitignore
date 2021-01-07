@@ -1,0 +1,7 @@
+cmake_install.cmake
+workspace.code-workspace
+CMakeCache.txt
+CMakeFiles
+CMakeFiles/*
+chessManager
+Makefile
