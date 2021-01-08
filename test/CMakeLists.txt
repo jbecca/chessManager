@@ -1,0 +1,5 @@
+set(BINARY ${CMAKE_PROJECT_NAME}_test)
+find_package(Catch2 REQUIRED)
+set(sourcefiles unitTests.cpp)
+add_executable(${BINARY} ${sourcefiles})
+target_link_libraries(${BINARY} PUBLIC ${CMAKE_PROJECT_NAME}_lib PRIVATE Catch2::Catch2)

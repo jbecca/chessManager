@@ -5,3 +5,6 @@ CMakeFiles
 CMakeFiles/*
 chessManager
 Makefile
+.vscode/c_cpp_properties.json
+src/libchessManager_lib.dylib
+test/chessManager_test
